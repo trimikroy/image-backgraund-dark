@@ -3,7 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-.banner{
+.header{
     height: 90vh;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url("../media/PerfectWebBannerAdfeaturedimage1.webp");
@@ -11,6 +11,40 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 400px;
+    padding: 0;
+
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+
+   
+  
+  
+}
+li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(72, 101, 129);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+li a:hover{
+    color: red;
+    background-color: rgb(163, 228, 228);
+  transition: 0.3s ease-in;
+}
+.banner{
+    
     display: flex;
     justify-content: center;
     align-items: center;
